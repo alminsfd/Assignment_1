@@ -18,7 +18,7 @@
 .btn_1{
     font-size: 16px;
     font-weight: 700;
-    color:#fff;
+    color: #ddd;;
     background-color: #4E47FF;
     border: none;
     padding: 15px 36px;
@@ -285,4 +285,49 @@ label{
 
 .touch_container{
     margin: 200px auto;
+}
+
+/* foter_section */
+.footer_container{
+    margin: 0 auto;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.time_up h2{
+    color: #4E47FF;
+    font-weight:900 ;
+    font-size: 100px;
+    text-align: center;
+    margin: 0px;
+}
+.time_up p{
+    color: #8987A1;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    margin:0px ;
+}
+
+.time_up{
+    width: 572px;
+    height: auto;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 35px;
+}
+
+.footer_nav ul li{
+    list-style: none;
+}
+.footer_nav li a{
+    text-decoration: none;
+    color: #8987A1;
+    font-weight: 400;
+    font-size: 16px;
+}
+.footer_nav{
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 70px;
 }
