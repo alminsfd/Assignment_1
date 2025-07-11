@@ -32,6 +32,9 @@
     background-color: aqua;
     color:black;
 }
+.text_center{
+    text-align: center;
+}
 /* nav style */
 header {
     background-image: url(../Assets/Hero-bg.png);
@@ -148,6 +151,7 @@ nav{
     box-shadow:3px 4px 4px 0px rgba(0, 0, 0, 0.25) ;
     border-radius: 14px;
     margin-right: 20px;
+    padding: 25px 20px;
 }
 .revier_item h3{
     color: black;
@@ -187,4 +191,34 @@ margin: 0;
     width:40px ;
     border-radius: 50%;
 }
+/* focus style */
+.focus_container{
+    margin: 0 auto;
+}
+.focus_container h2{
+    font-size: 50px;
+    color: #000;
+    font-weight: 700;
+    text-align: center;
+    
+}
 
+.focus_container h3{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+
+}
+.focus_img{
+    text-align: center;
+}
+.focus_img img{
+    width: 840px;
+    height: 364px;
+    border-radius: 48px;
+}
+
+.button_3{
+    text-align: center;
+}
