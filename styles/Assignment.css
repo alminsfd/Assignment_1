@@ -14,6 +14,24 @@
   font-variation-settings:
     "wdth" 100;
 }
+/* common styles */
+.btn_1{
+    font-size: 16px;
+    font-weight: 700;
+    color:#fff;
+    background-color: #4E47FF;
+    border: none;
+    padding: 15px 36px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 60px;
+    transition: 0.5s;
+}
+.btn_1:hover{
+    font-size: 18;
+    background-color: aqua;
+    color:black;
+}
 /* nav style */
 header {
     background-image: url(../Assets/Hero-bg.png);
@@ -58,26 +76,35 @@ nav{
     text-align: center;
 }
 
-.btn_1{
-    font-size: 16px;
-    font-weight: 700;
-    color:#fff;
-    background-color: #4E47FF;
-    border: none;
-    padding: 15px 36px;
-    border-radius: 10px;
-    text-align: center;
-    margin-bottom: 60px;
-    transition: 0.5s;
 
-}
-.btn_1:hover{
-    font-size: 18;
-    background-color: aqua;
-    color:black;
-}
 .banner_btn{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+/* Action styles */
+.action_items{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.action_container{
+    max-width: 517px;
+    height: auto;
+}
+.action_container h2{
+    color: #252432;
+    font-size: 42px;
+    font-weight: 700;
+}
+.action_container p{
+    font-size: 24px;
+    font-weight: 400;
+    color:rgba(37, 36, 50, 0.5);
+}
+.action_image img{
+    width: 403px;
+    height: 328px;
+    border-radius: 48px;
 }
