@@ -26,6 +26,7 @@
     text-align: center;
     margin-bottom: 60px;
     transition: 0.5s;
+    cursor: pointer;
 }
 .btn_1:hover{
     font-size: 18;
@@ -149,6 +150,7 @@ nav{
 }
 .revier_item{
     box-shadow:3px 4px 4px 0px rgba(0, 0, 0, 0.25) ;
+    border: 1px solid #D6DDED;
     border-radius: 14px;
     margin-right: 20px;
     padding: 25px 20px;
@@ -221,4 +223,66 @@ margin: 0;
 
 .button_3{
     text-align: center;
+}
+/* Touch style */
+.touch_header h2{
+    font-size: 97px;
+    font-weight: 700;
+    color: #000;
+}
+.touch_form input[type="email"],input[type="text"],textarea{
+    display: block;
+    border-radius: 10px;
+    color: #000;
+    border: 1px solid #D6DDED;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    padding:10px 20px ;
+    width: 400px;
+    height: 60px;
+    margin-top: 19px;
+    margin-bottom: 12px;
+}
+
+.touch_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1140px;
+    height: 632px;
+}
+.touch_header{
+    width: 550px;
+    height: auto;
+}
+.botton{
+    display: block;
+    width: 438px;
+    height: auto;
+        font-size: 16px;
+    font-weight: 700;
+    color:#fff;
+    background-color: #4E47FF;
+    border: none;
+    padding: 15px 36px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 60px;
+    transition: 0.5s;
+    cursor: pointer;
+    margin-top: 19px;
+}
+.botton:hover{
+    font-size: 18px;
+    background-color: aqua;
+    color:black;
+}
+
+label{
+    color: #000;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.touch_container{
+    margin: 200px auto;
 }
